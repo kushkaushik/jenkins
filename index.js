@@ -8,6 +8,9 @@ app.get('/', (req , res)=>{
     })
 })
 
+app.get('/mr', (req,res)=>{
+    res.json('hey mr how are you')
+})
 
 
 app.listen(3000 , ()=>{
