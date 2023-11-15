@@ -9,7 +9,11 @@ app.get('/', (req , res)=>{
 })
 
 app.get('/mr', (req,res)=>{
+
     res.json('mr how are you')
+
+    res.json('hey mr how are you my name is kush kaushik')
+
 })
 
 

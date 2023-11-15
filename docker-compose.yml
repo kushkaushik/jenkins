@@ -1,6 +1,6 @@
 version: "3.3"
 services:
   web:
-    build: .
+    image: kush271/node-app:latest
     ports:
       - "3000:3000"
