@@ -4,7 +4,7 @@ const app = express();
 
 app.get('/', (req , res)=>{
     res.json({
-        msg :"Hey aser  klajlkdjalkfj you ,Yup got aaaaaaaa my name it hello hey what's up"
+        msg :"Hey there we are just checking Jenking CI-CD Pipeline"
     })
 })
 
